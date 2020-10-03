@@ -1,10 +1,10 @@
 
 
-body header{
+body header {
     text-align: center;
 }
 
-body header h1{
+body header h1 {
     font-size: 70px;
     font-family: 'Playfair Display', serif;
     margin-bottom: 5px;
@@ -13,19 +13,20 @@ body header h1{
     padding-left: 100px;
 }
 
-body header h2{
+body header h2 {
     font-size :20px;
     font-family: 'Lato', sans-serif;
     margin-top: 5px;
 }
 
-#roses{
+#roses {
     display: flex;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 25px;
     margin-bottom: 30px;
+    padding: 20px;
+    border: 5px solid #000;
 }
 
 
@@ -38,93 +39,42 @@ p {
     margin: 40px 40px;
 }
 
+button {
+    padding: 0px;
+    border-color: #000;
+}
 
-header button{
+header button {
     font-family: 'Playfair Display', serif;
     border-color:  rgb(214, 116, 116);
     font-weight: bold;
     border: 0;
     box-shadow: none;
-    
+    text-decoration: none;
 }
 
-a.button{
-    text-decoration-line: none;
-    background-color: none;
+a.button {
+    font-family: 'Playfair Display', serif;
+    background: #000;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 30px;
+    border-color: #000;
+}
+
+footer p {
+    color: #fff;
+    margin: 20px;
+    padding-right: 50px;
+    padding-left: 20px;
+    text-align: left; 
 }
 
 footer {
     text-align: center;
+    background-color: #000;
+    display: block;
+    margin-left:-20px;
+    padding: 40px 0 30px 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* article{
-    Width: 80%
-    Margin: 60px auto;
-}
-
-header h1{
-    font-family: 'Playfair Display', serif;
-    font-size: 80px;
-    text-align: center;
-    margin-bottom: 0px;
-
-
-}
-
-header h2{
-    font-family: 'Lato', sans-serif;
-    text-align: center;
-    margin-top: -12px;
-    max-width: 500px;
-    margin: auto;
-    
-}
-
-p {
-    font-family: 'Lato', sans-serif;
-    max-width: 500px;
-    margin: auto;
-    
-}
-
-article{
-
-    display:inline-block;
-    align-content: center;
-}
-
-figure {
-    Float: right;
-    
-}
-
-/* main figure{ 
-display: inline-block; 
-    flex-grow: inherit;
-    padding-left: 100px;
-	margin: 20px 10px;
-}
-
-article image {
-
-    max-width: 500px;
-    margin: auto;
- }
- 
- 
